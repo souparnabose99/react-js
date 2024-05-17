@@ -1,5 +1,8 @@
+
 body {
   background-color: #1c1917;
+  color: #fafaf9;
+  font-family: "Sono", sans-serif;
 }
 
 h1 {
@@ -13,7 +16,6 @@ h1 {
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  font-family: "Sono", sans-serif;
   background-color: #292524;
   color: #fafaf9;
 }
@@ -31,4 +33,8 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+.hidden {
+  display: none !important;
 }
