@@ -16,7 +16,8 @@ h1 {
   text-transform: uppercase;
   /*text-align: center;*/
   font-family: "Coiny", sans-serif;
-  color: #fafaf9;
+  line-height: 1;
+  margin-top: 15px;
 }
 
 .fact {
@@ -55,4 +56,13 @@ ul {
 
 .header {
   margin-bottom: 40px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  gap: 16px;
 }
