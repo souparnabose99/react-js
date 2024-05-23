@@ -27,6 +27,11 @@ h1 {
   color: #fafaf9;
   margin-top: 16px;
   padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  letter-spacing: -1px;
 }
 
 .fact-form {
@@ -62,7 +67,11 @@ ul {
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   display: flex;
   gap: 16px;
+}
+
+.vote-buttons {
+  margin-left: auto;
 }
