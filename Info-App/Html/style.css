@@ -92,14 +92,12 @@ ul {
   margin-left: auto;
 }
 
-.source {
+.source:link,
+.source:visited {
   background-color: red;
 }
 
-.source:hover {
-  background-color: #3b82f6;
-}
-
+.source:hover,
 .source:active {
-  background-color: green;
+  background-color: #3b82f6;
 }
