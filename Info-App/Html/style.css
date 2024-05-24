@@ -91,3 +91,15 @@ ul {
 .vote-buttons {
   margin-left: auto;
 }
+
+.source {
+  background-color: red;
+}
+
+.source:hover {
+  background-color: #3b82f6;
+}
+
+.source:active {
+  background-color: green;
+}
