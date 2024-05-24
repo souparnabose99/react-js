@@ -12,7 +12,10 @@
     <link href="style.css" rel="stylesheet" />
     <title>First App</title>
   </head>
+
   <body>
+    <div class="container">
+
     <header class="header">
       <div class="logo">
         <img src="msg_logo.png" height="75" width="75" alt="Information logo" />
@@ -20,7 +23,8 @@
       </div>
       <button class="btn btn-large btn-open">Share information</button>
     </header>
-    <form class="fact-form hidden">
+
+    <form class="fact-form">
       <input type="text" placeholder="Share a fact ...." />
       <span>200</span>
       <input type="text" placeholder="Proper source" />
@@ -32,7 +36,8 @@
       </select>
       <button>Post</button>
     </form>
-    <main>
+
+    <main class="main">
       <aside>
         <ul>
           <li>
@@ -46,6 +51,7 @@
           </li>
         </ul>
       </aside>
+
       <section>
         <ul>
           <li class="fact">
@@ -84,5 +90,7 @@
       </section>
     </main>
     <script src="script.js"></script>
+  </div>
   </body>
+
 </html>
