@@ -94,7 +94,10 @@ ul {
 
 .source:link,
 .source:visited {
-  background-color: red;
+  background-color: #a8a29e;
+  text-decoration: none;
+  margin-left: 12px;
+  transition: 0.5s;
 }
 
 .source:hover,
